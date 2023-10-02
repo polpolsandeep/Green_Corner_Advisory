@@ -1,0 +1,245 @@
+.about img{
+    box-shadow: 0px 0px 2px 2px #c9c9c9;
+    border-radius: 20px;
+}
+.smissionicon{
+    color: #036b18;
+}
+.mission{
+    background-color: #d3f5d2;
+    border: 25px 25px 25px 20px;
+    box-shadow: 0px 0px 2.5px 2.5px #c8c8c8;
+    border-radius: 20px;
+    padding: 15px 10px;
+    transition: all 0.5s;
+}
+.mission:hover{
+    transform: translateY(-5px);
+    border-bottom: 5px solid rgb(25, 58, 36);
+}
+.vision{
+    background-color: #d3f5d2;
+    border: 25px 25px 25px 20px;
+    box-shadow: 0px 0px 2.5px 2.5px #c8c8c8;
+    border-radius: 20px;
+    padding: 15px 10px;
+    transition: all 0.5s;
+}
+.vision:hover{
+    transform: translateY(-4px);
+    border-bottom: 5px solid rgb(25, 58, 36);
+}
+/* why us start */
+.why{
+    background-color: #f9f9f9;
+}
+.whyus{
+    position: relative;
+    border-bottom: 1px solid green;
+    margin-left: 460px;
+    width: 175px;
+
+}
+.why .customer{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 2px 1px #c8c8c8;
+    transition: all 0.5s;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+.customer:hover{
+    transform: translateY(-4px);
+    border-bottom: 5px solid rgb(4, 230, 79);
+}
+/* why us end */
+/* who is start */
+.who{
+    text-align: center;
+}
+.graph{
+    height: 200px; 
+    width: 400px;
+    border-radius: 20px;
+    transition: all 0.3s  ease-in-out;
+}
+.graph:hover{
+    transform: translateY(-5px);
+    border-bottom: 5px solid rgb(9, 104, 9);
+}
+.client{
+    background-color: rgb(156, 184, 113);
+    padding: 45px;
+    border: 0px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1.5px 2px solid rgb(202, 195, 195);
+    font-weight: 400;
+    color: rgb(39, 39, 39);
+    transition: all 0.3S ease-in-out;
+}
+.client:hover{
+    transform: translateY(-5px);
+    border-bottom: 5px solid rgb(9, 104, 9);
+}
+/* who is end */
+/* Offer Start */
+.equity{
+    border: 0.5px solid #c8c8c8;
+    padding: 25px 15px;
+    margin: 10px 12px 10px 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 2px 0px 2px solid #666565;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+
+}
+.equity:hover{
+    transform: translateY(-5px);
+    border-bottom: 5px solid rgb(9, 104, 9);
+}
+.ncdex{
+    border: 0.5px solid #c8c8c8;
+    padding: 25px 15px;
+    margin: 10px 12px 10px 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 2px 0px 2px solid #666565;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.ncdex:hover{
+    transform: translateY(-5px);
+    border-bottom: 5px solid rgb(9, 104, 9);
+}
+/* Offer End */
+/* Work start */
+.watch{
+    background-color: rgb(156, 184, 113);
+    padding: 20px 10px;
+    margin: 2px 0px 2.5px 0px;
+    box-shadow: 0px 0px 5px 0px solid rgb(25, 58, 36);
+    border-radius: 18px;
+    border-bottom: 5px solid #127e0edb;
+    transition: all 0.5s ease-in-out;
+}
+.watch:hover{
+    transform: translateY(-5px);
+    border-bottom: 8px solid rgb(9, 104, 9);
+}
+.box{
+    background-color: rgb(156, 184, 113);
+    padding: 8px 2px;
+    margin: 2px 0px 2.5px 0px;
+    box-shadow: 0px 0px 5px 0px solid rgb(25, 58, 36);
+    border-radius: 18px;
+    border-bottom: 5px solid #127e0edb;
+    transition: all 0.5s ease-in-out;
+}
+.box:hover{
+    transform: translateY(-5px);
+    border-bottom: 8px solid rgb(9, 104, 9);
+}
+/* Work end */
+/* client start */
+.clientimage{
+    background-color: white;
+    padding: 50px 80px;
+    margin: 50px 70px;
+    box-shadow: 0px 0px 5px 0px solid grey;
+    border-radius: 28px;
+    transition: all 0.5s ease-in-out;
+}
+.clientimage:hover{
+    transform: translateY(-5px);
+    border-bottom: 3px solid rgb(9, 104, 9);
+}
+/* client end */
+/* help start */
+.information{
+    border-top: 3px solid #1c751d;
+    border-bottom: 3px solid #1c751d;
+    padding: 40px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 5px 1px #ccc;
+    border-radius: 10px;
+}
+.information a{
+   text-decoration: none;
+   color: black;
+}
+.contactinfo{
+    font-size: 7px;
+    color: #1c751d;
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    display: flex;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px 1px #ccccccb8;
+}
+.contactinfo:hover{
+    background-color: #1c751d;
+}
+.location{
+    padding: 0px 0px 0px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    color: #4e4039;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+}
+.location p{
+    padding: 0px 0px 0px 35px;
+}
+.namesection input{
+    height: 35px;
+    font-size: 13px;
+    text-align: justify;
+    color: #a1a1a1;
+    margin-bottom: 5px;
+
+}
+.information-2{
+    border-top: 3px solid #1c751d;
+    border-bottom: 3px solid #1c751d;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 5px 1px #ccc;
+    border-radius: 10px;
+}
+.select3{
+    padding-left: 15px;
+    margin-left: 15px;
+    height: 5px;
+}
+/* help end */
+/* capital start */
+.footer{
+    background: rgb(156, 184, 113);
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0px 0px 3px 1px #c8c8c8;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.footer:hover{
+    transform: translateY(-5px);
+    border-bottom: #1c751d;
+}
+/* capital end */
+

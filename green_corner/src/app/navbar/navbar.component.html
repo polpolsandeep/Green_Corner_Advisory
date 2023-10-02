@@ -1,0 +1,46 @@
+<nav class="navbar">
+    <div class="container">
+        <div class="row">
+            <div class="d-flex">
+                <div class="navbarlogo">
+                    <a>
+                        <img src="/assets/image/logo (1).png" alt="logoimg"/>
+                    </a>
+                </div>
+                <ul ngbNav #nav="ngbNav">
+                    <li class="me-4">
+                        <a class="text-light"> Home</a>
+                    </li>
+                    <li class="me-4">
+                      <a class="text-light">About-Us</a>
+                    </li>
+                    <li class="me-4">
+                        <a class="text-light">Research</a>
+                    </li>
+                    <li class="me-4">
+                        <a class="text-light">Products</a>
+                    </li>
+                        <div ngbDropdown class=" me-4">
+                            <a  class="text-light" id="dropdownBasic1" ngbDropdownToggle>More</a>
+                          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                           <a> <button ngbDropdownItem>Services</button> </a>
+                            <a> <button ngbDropdownItem>KYC Form</button> </a>
+                            <a> <button ngbDropdownItem>Rpm</button> </a>
+                            <a> <button ngbDropdownItem>Complaints</button> </a>
+                            <a> <button ngbDropdownItem>Bank Detais</button> </a>
+                            <a> <button ngbDropdownItem>Careers</button> </a>
+                            <a> <button ngbDropdownItem>FAQS</button> </a>
+                          </div>
+                        </div>
+                        <li class="me-4">
+                            <a class="text-light">Contact-Us</a>
+                        </li>
+                        <li class="me-4">
+                            <a type="button" class="btn btn-success">Book-Demo</a>
+                        </li>
+                     </ul>    
+                  <div [ngbNavOutlet]="nav"></div>
+            </div>
+        </div>
+    </div>
+</nav>

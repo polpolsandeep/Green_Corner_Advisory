@@ -1,0 +1,14 @@
+.top-head{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+.background-head{
+    padding-top: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 1px;
+    border-radius: 0px 0px 20px 20px;
+}
